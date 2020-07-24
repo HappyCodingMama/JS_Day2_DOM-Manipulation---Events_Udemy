@@ -16,20 +16,20 @@
     parentElement : get parent node  nextSibling, 
     nextElementSibling: get next sibling
     previousSibling, previousElementSibling: get prev sibling
-005.Creating Elements
+005.Creating Elements<br>
      createElement -> add class, id, attribute  -> appendChild : create text node and append -> append li as child to ul
      create new link element -> add classes -> add icon -> append link into li
-006.Removing & Replacing Elements
+006.Removing & Replacing Elements<br>
      replace: creat Element -> add id -> new text node -> get the old element -> get the parent -> replaceChild
      remove list item / remove child element / getAttribute, setAttribute, hasAttribute
-007.Event Listners & The event Object
+007.Event Listners & The event Object<br>
      addEventListener / function(e) e.preventDefault / e.target /  coordinates - clientY clientX offsetY offsetX
-008.Mouse Events
+008.Mouse Events<br>
      event Handler: runEvent / click dblclick mousedown mouseup mouseenter mouseleave mouseover mouseout  
      mousemove->display coordinates & change background color using mouseover
-009.keyboard & Input Events
+009.keyboard & Input Events<br>
      addEventListener('submit', runEvent) / clear input / keydown keyup keypress focus blur cut paste input  change
-010.Event bubbling & delegation
+010.Event bubbling & delegation<br>
      event delegation / contains
-011.Local & Session Storage
+011.Local & Session Storage<br>
      localStorage.setItem / sessionStorage / removeItem / getItem / clear / JSON.parse JSON.stringify
