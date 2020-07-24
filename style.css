@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow:hidden;
+    margin:0;
+
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 15px 5px rgb(235, 235, 235);
+    padding: 20px 20px;
+}
+
+span {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+label {
+    color: #999;
+}
+
+input {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 6px 10px;
+    margin-top: 5px;
+    width: 356px;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 6px 8px;
+    margin-top: 10px;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    border: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
