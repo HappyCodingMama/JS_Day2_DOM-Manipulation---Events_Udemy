@@ -16,9 +16,11 @@ body {
 }
 
 .container {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
     width: 400px;
-    box-shadow: 0 0 15px 5px rgb(235, 235, 235);
+    background-color: white;
+    box-shadow: 0 0 15px 5px rgba(0,0,0,.1);
     padding: 20px 20px;
 }
 
@@ -87,4 +89,13 @@ li {
     padding: 8px 10px;
     border: none;
     border-bottom: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+.fa.fa-times {
+    color: #c9c9c9;
 }
