@@ -15,21 +15,21 @@
     childElementCount: count child element, parentNode, 
     parentElement : get parent node  nextSibling, 
     nextElementSibling: get next sibling
-    previousSibling, previousElementSibling: get prev sibling
-005.Creating Elements<br>
+    previousSibling, previousElementSibling: get prev sibling<br>
+005. Creating Elements<br>
      createElement -> add class, id, attribute  -> appendChild : create text node and append -> append li as child to ul
-     create new link element -> add classes -> add icon -> append link into li
-006.Removing & Replacing Elements<br>
+     create new link element -> add classes -> add icon -> append link into li<br>
+006. Removing & Replacing Elements<br>
      replace: creat Element -> add id -> new text node -> get the old element -> get the parent -> replaceChild
-     remove list item / remove child element / getAttribute, setAttribute, hasAttribute
-007.Event Listners & The event Object<br>
-     addEventListener / function(e) e.preventDefault / e.target /  coordinates - clientY clientX offsetY offsetX
-008.Mouse Events<br>
+     remove list item / remove child element / getAttribute, setAttribute, hasAttribute<br>
+007. Event Listners & The event Object<br>
+     addEventListener / function(e) e.preventDefault / e.target /  coordinates - clientY clientX offsetY offsetX<br>
+008. Mouse Events<br>
      event Handler: runEvent / click dblclick mousedown mouseup mouseenter mouseleave mouseover mouseout  
-     mousemove->display coordinates & change background color using mouseover
-009.keyboard & Input Events<br>
-     addEventListener('submit', runEvent) / clear input / keydown keyup keypress focus blur cut paste input  change
-010.Event bubbling & delegation<br>
-     event delegation / contains
-011.Local & Session Storage<br>
+     mousemove->display coordinates & change background color using mouseover<br>
+009. keyboard & Input Events<br>
+     addEventListener('submit', runEvent) / clear input / keydown keyup keypress focus blur cut paste input  change<br>
+010. Event bubbling & delegation<br>
+     event delegation / contains<br>
+011. Local & Session Storage<br>
      localStorage.setItem / sessionStorage / removeItem / getItem / clear / JSON.parse JSON.stringify
