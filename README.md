@@ -1,7 +1,7 @@
 # JS_Day2_DOM Manipulation & Events_Udemy
  Summarizing what I learned 
 
-<h1>001. What is the DOM?</h1>Documnet Object Model
+<h1>001. What is the DOM?</h1>Document Object Model
 <h1>002. DOM Selectors for Single Elements</h1>
     change styling(background color etc) using getElementByI
     textContent & innerText, innerHTML / querySelector
